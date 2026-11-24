@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "product": "BeNomad MSDK for Android",
+  "version": "2.10.0.2-beta",
+  "buildType": "beta",
+  "docsBaseUrl": "https://docs.benomad.com/msdk/android/2.10.0.2-beta",
+  "modules": [
+    {
+      "name": "Core",
+      "packages": [
+        "com.benomad.msdk.core",
+        "com.benomad.msdk.core.callbacks.OnCoreInit",
+        "com.benomad.msdk.core.callbacks.OnHybridMapDownloadProgress",
+        "com.benomad.msdk.core.callbacks.OnInitProgress",
+        "com.benomad.msdk.core.callbacks.OnLicenseError",
+        "com.benomad.msdk.core.callbacks.OnMapDownloadError",
+        "com.benomad.msdk.core.callbacks.OnMapDownloadProgress",
+        "com.benomad.msdk.core.callbacks.OnMapDownloaded",
+        "com.benomad.msdk.core.callbacks.OnMapExtractionProgress",
+        "com.benomad.msdk.core.callbacks.OnMapUpdateAvailable",
+        "com.benomad.msdk.core.callbacks.OnOfflinePeriodExpired",
+        "com.benomad.msdk.core.carto",
+        "com.benomad.msdk.core.errorcodes",
+        "com.benomad.msdk.core.ev",
+        "com.benomad.msdk.core.geocoding",
+        "com.benomad.msdk.core.svs"
+      ],
+      "declarations": 1288,
+      "summary": "The Core validates your BeNomad license, then deploys and loads the map data and the other resources the SDK needs."
+    },
+    {
+      "name": "Mapping",
+      "packages": [
+        "com.benomad.msdk.mapping",
+        "com.benomad.msdk.mapping.callbacks",
+        "com.benomad.msdk.mapping.errorcodes",
+        "com.benomad.msdk.mapping.results",
+        "com.benomad.msdk.mapping.style"
+      ],
+      "declarations": 318,
+      "summary": "The Mapping module provides interactive maps as Android views."
+    }
+  ],
+  "guides": [
+    {
+      "name": "overview",
+      "title": "BeNomad MSDK for Android",
+      "module": null,
+      "sections": 9
+    },
+    {
+      "name": "Core",
+      "title": "Core",
+      "module": "Core",
+      "sections": 27
+    },
+    {
+      "name": "Mapping",
+      "title": "Mapping",
+      "module": "Mapping",
+      "sections": 24
+    }
+  ],
+  "counts": {
+    "declarations": 1606,
+    "guides": 3
+  }
+}

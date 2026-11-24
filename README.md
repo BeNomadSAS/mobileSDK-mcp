@@ -4,16 +4,12 @@ Gives your AI coding assistant (Claude, Codex, Gemini CLI, Cursor, Copilot and o
 BeNomad MSDK for Android: its API reference and its module guides. The assistant looks the MSDK API up instead of
 guessing it.
 
-## Status
-
-No release yet. Packages are published with the MSDK: each MSDK release gets a release of this package, and each
-beta MSDK version a pre-release. From the first release on, this repository holds the newest release, and this page
-describes it.
+This version documents MSDK 2.10.0.2-beta: Core, Mapping.
 
 ## Download
 
-**https://github.com/BeNomadSAS/msdk-mcp/releases**: the release whose version equals the MSDK version of your app,
-under **Assets**:
+**https://github.com/BeNomadSAS/mobileSDK-mcp/releases**: the release whose version equals the MSDK version of your app, under
+**Assets**:
 
 | File | For |
 |---|---|
@@ -21,7 +17,8 @@ under **Assets**:
 | `benomad-msdk-mcp-<version>.tgz` | every other assistant |
 | `SHA256SUMS` | the checksums of both files |
 
-Each package holds its installation guide, `INSTALL.md`.
+Beta MSDK versions have pre-releases. Or clone this repository: it holds the newest release. How to install each:
+**[INSTALL.md](INSTALL.md)**.
 
 ## What is inside
 
@@ -42,8 +39,9 @@ network connection and collects no data.
 | Claude Desktop | double-click the `.mcpb` |
 | Claude Code, in a terminal or in VS Code | the `.tgz`, then one command |
 | Cursor, VS Code Copilot, Codex, Gemini CLI, Zed, Devin | the `.tgz`, then a few lines of configuration |
+| Any of them, from a clone of this repository | `git clone`, `npm install`, then the same configuration |
 
-Then ask your assistant:
+Step by step: **[INSTALL.md](INSTALL.md)**. Then ask your assistant:
 
 > How do I initialise the MSDK Core?
 
@@ -72,4 +70,6 @@ Limitations:
 
 ## Support
 
-**msdk@benomad.com**. Use of each package is governed by the `LICENSE.md` it contains.
+**msdk@benomad.com**. Use of this package is governed by [LICENSE.md](LICENSE.md).
+
+Documentation: https://docs.benomad.com/msdk/android/2.10.0.2-beta
